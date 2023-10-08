@@ -26,5 +26,5 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:      🚀 **Contribut
 <a href= "https://www.linkedin.com/in/soumojit-shome"><img src="https://img.icons8.com/fluency/48/000000/linkedin.png"/></a>
 <a href= "https://www.youtube.com/@soumojitshome"><img src="https://img.icons8.com/bubbles/48/000000/youtube.png"/></a>
 <a href= "https://soumojitshome.vercel.app/"><img src="https://img.icons8.com/bubbles/48/000000/domain.png"/></a>
-<a href="soumojitshome2021@gmail.com"><img src="https://img.icons8.com/fluency/48/000000/gmail-new.png"/></a>
+<a href="mailto:soumojitshome2021@gmail.com"><img src="https://img.icons8.com/fluency/48/000000/gmail-new.png"/></a>
 <a href='https://github.com/Soumojitshome2023'><img src="https://img.icons8.com/ios-filled/50/000000/github.png"/> </a>
