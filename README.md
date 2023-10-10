@@ -12,7 +12,7 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:      🚀 **Contribut
 	<tr>
 		<td>
 <a href="https://github.com/Soumojitshome2023/DSA_Hacktoberfest_2023/graphs/contributors">
-	<img src="https://contrib.rocks/image?repo=Soumojitshome2023/DSA_Hacktoberfest_2023" />
+  <img src="https://contrib.rocks/image?repo=Soumojitshome2023/DSA_Hacktoberfest_2023" />
 </a>
 		</td>
 	</tr>
