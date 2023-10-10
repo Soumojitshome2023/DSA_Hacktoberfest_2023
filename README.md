@@ -11,13 +11,12 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:      🚀 **Contribut
 <table>
 	<tr>
 		<td>
-   <a href="https://github.com/Soumojitshome2023/DSA_Hacktoberfest_2023/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Soumojitshome2023/DSA_Hacktoberfest_2023"/>
+<a href="https://github.com/Soumojitshome2023/DSA_Hacktoberfest_2023/graphs/contributors">
+	<img src="https://contrib.rocks/image?repo=Soumojitshome2023/DSA_Hacktoberfest_2023" />
 </a>
 		</td>
 	</tr>
 </table>
-
 
 ## :confetti_ball: :confetti_ball: :fireworks: :fireworks: Thanks for  your  Contribution!! :collision: :collision: :collision: :cupid: :cupid:
 
