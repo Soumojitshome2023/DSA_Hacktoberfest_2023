@@ -1,10 +1,10 @@
 ![image](https://doimages.nyc3.cdn.digitaloceanspaces.com/002Blog/1100x640%20Hacktober%20fest%20header.png)
 # Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> HACKTOBERFEST 2023 IS HERE :bangbang::bangbang::bangbang:
-# Hactober Fest 2023
+# Hacktober Fest 2023
 Add your DSA CPP / C codes here.
 
-We will accept Merge Request, Don't Worry if it Takes Long. 
-You can create 4 or more pull request here ( every time you have to give a new C/CPP programme )
+We will accept merge requests, don't worry if it takes long. 
+You can create 4 or more pull requests here ( every time, you have to give a new C/CPP programs ).
 
 Thanks goes to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributions** of any kind is welcome! 
 
