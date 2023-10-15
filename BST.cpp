@@ -99,12 +99,7 @@ using namespace std;
         }
         return false;
     }
-    // int BST::findLargestestElement(Node *tree)
-    // {
-    //     if(root==NULL) return INT_MIN;
-    //     else if(tree->rchild==NULL) return tree->data;
-    //     else return findLargestElement(tree->rchild)
-    // }
+
 int main()
 {
     BST MyTree;
@@ -115,7 +110,6 @@ int main()
         cout<<"3. for preordertraversal for the tree"<<endl;
         cout<<"4. for postordertraversal of the tree"<<endl;
         cout<<"5. search any element in the tree"<<endl;
-        // cout << "6. Find the largest element in the tree" << endl;
         cout<<"Enter your choice:"<<endl;
         cin>>choice;
         switch(choice)
@@ -142,13 +136,6 @@ int main()
                 else
                     cout << "Element not found in the tree." << endl;
                 break;
-            // case 6:
-            // int largest = MyTree.findLargestElement(MyTree.getRoot());
-            // if (largest != INT_MIN)
-            //     cout << "The largest element in the tree is: " << largest << endl;
-            // else
-            //     cout << "The tree is empty." << endl;
-            // break;
             case 0:
                 cout<<"exit......."<<endl;
                 break;
