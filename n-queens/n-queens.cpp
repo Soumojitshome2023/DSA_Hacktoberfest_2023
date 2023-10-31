@@ -1,30 +1,70 @@
-class Solution {
-public:
-    void solve(int col,vector<vector<string>> &san,vector<string> &desh,vector<int> &left,vector<int> &lower, vector<int> &upper,int n){
-        if(col==n)
-            san.push_back(desh);
-        for(int row=0;row<n;row++){
-            if(left[row]==0 && lower[row+col]==0 && upper[n-1+col-row]==0){
-                desh[row][col]='Q';
-                left[row]=1;
-                lower[row+col]=1;
-                upper[n-1+col-row]=1;
-                solve(col+1,san,desh,left,lower,upper,n);
-                desh[row][col]='.';
-                left[row]=0;
-                lower[row+col]=0;
-                upper[n-1+col-row]=0;
+ bool isSafe(int &row , int &col, int &n, vector<vector<int>> &check){
+        //checked if any prev row had queen in this col
+        for(int i=0;i<row;i++){
+            if(check[i][col]==1){
+                return false;
             }
         }
+        //checking front diagonal-row decreases-col increases
+        int startrow=row;
+        int startcol=col;
+        while(startrow>=0 && startcol<n){
+            if(check[startrow][startcol]==1){
+                return false;
+            }
+            startrow--;
+            startcol++;
+            
+        }
+        //checking for back diagonal
+        startrow=row;
+        startcol=col;
+        while(startrow>=0 && startcol>=0){
+            if(check[startrow][startcol]==1){
+                return false;
+            }
+            startrow--;
+            startcol--;
+        }
+        
+        return true;
     }
-    vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>> san;
-        vector<string> desh(n);
-        string s(n,'.');
-        for(int i=0;i<n;i++)
-            desh[i]=s;
-        vector<int> left(n,0),lower(2*n-1,0),upper(2*n-1,0);
-        solve(0,san,desh,left,lower,upper,n);
-        return san;
+
+
+   void nqueen(vector<int> temp,vector<vector<int>> &ans,vector<vector<int>> &check,int &n,int row){
+       //base case
+       if(row==n){
+           
+           return;
+       }
+       
+       
+       //placing in each col
+       for(int i=0;i<n;i++){
+           if(isSafe(row,i,n,check)){
+            //   cout<<row<<" "<<i<<" is safe"<<endl;
+               check[row][i]=1;
+            //   cout<<"pushing "<<row<<" "<<i<<endl;
+               temp.push_back(i+1);
+               nqueen(temp,ans,check,n,row+1);
+               //backtrack
+               temp.pop_back();
+                // cout<<"popping "<<row<<" "<<i<<endl;
+               check[row][i]=0;
+           }
+       }
+       
+       return;
+       
+   }
+   
+   
+    vector<vector<int>> nQueen(int n) {
+        // code here
+        vector<vector<int>> ans;
+        vector<vector<int>> check( n , vector<int> (n, 0)); 
+        vector<int> temp;
+        nqueen(temp,ans,check,n,0);
+        return ans;
+        
     }
-};
